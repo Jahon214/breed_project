@@ -140,12 +140,14 @@ body {
   display: inline-block;
   text-align: center;
   background-color: #f8faff;
-  padding: 30px 15px;
-  margin-right: 36px;
+  width: 150px;
+  margin-right: 20px;
+  padding: 10px;
 }
 
 .main-section_item-box h2{
   font-size: 27px;
+  margin-bottom: 5px;
   color: #df39b0;
 }
 
@@ -153,5 +155,4 @@ body {
   color: #797979;
   font-size: 16px;
   font-weight: 300;
-  padding-top: 10px;
 }
