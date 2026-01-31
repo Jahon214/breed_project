@@ -1,0 +1,157 @@
+/* Topbar styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.main_header {
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.main_navigation_items {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 100px;;
+}
+
+.main_navigation_items a {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+  color: #05364d;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.main_navigation_items a .active {
+  color: #efb6df;
+}
+
+.main_navigation_items a:hover {
+  color: #efb6df;
+}
+
+.main_header_logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main_navigation {
+  display: inline-block;
+}
+/* Hero section styles */
+
+/* Main-section */
+.main-section{
+  padding: 150px 0;
+  height: 96vh;
+}
+
+.main-section > div{
+  width: 50%;
+  float: left;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.main-section_item-first{
+  padding-top: 60px;
+}
+
+.to-uppercase{
+  text-transform: uppercase;
+}
+
+.main-section_item-second{
+  text-align: right;
+}
+
+.main-section_item-second img{
+  width: 350px;
+}
+
+.main-section_info-one{
+  font-size: 16px;
+  font-weight: 300;
+  color: gray;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.main-section_info-two{
+  font-size: 57px;
+  font-weight: 500;
+  color: #05364d;
+  padding-bottom: 10px;
+}
+
+.main-section_info-three{
+  font-size: 25px;
+  font-weight: lighter;
+  color: #05364d;
+  margin-bottom: 50px;
+}
+
+.main-section_item-icons a{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.main-section_item-icons .icon{
+  margin-right: 10px;
+  color: #05364d;
+  margin-bottom: 50px;
+}
+
+.main-section_item-icons .icon:hover{
+  color: #df39b0;
+}
+
+.button_work{
+  border: none;
+  padding: 20px 40px;
+  background-color: #05364d;
+  color: #ffff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.main-section_item-third{
+  margin-top: 20px;
+}
+
+.main-section_item-box{
+  display: inline-block;
+  text-align: center;
+  background-color: #f8faff;
+  padding: 30px 15px;
+  margin-right: 36px;
+}
+
+.main-section_item-box h2{
+  font-size: 27px;
+  color: #df39b0;
+}
+
+.main-section_item-box p{
+  color: #797979;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 10px;
+}
