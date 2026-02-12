@@ -258,3 +258,40 @@ body {
 .service-card:hover .service-card_icon{
   color: #ffff;
 }
+/* ------------------Clients section--------------- */
+#clients > div{
+  margin: 100px 0;
+  width: 50%;
+  float: left;
+}
+
+#clients{
+  margin-top: 100px;
+}
+.clients-title{
+   font-size: 20px;
+  color: #05364d;
+  font-weight: 600;
+  padding-top: 25px;
+}
+.clients-paragraph{
+  color: #797979;
+  letter-spacing: 1px;
+  font-weight: 300;
+  line-height: 27px;
+  font-size: 14px;
+}
+
+.cliens-paragraph_small{
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.clients-icons{
+  margin-top: 15px;
+}
+
+.clients-icons .icon{
+  color: yellow;
+}
