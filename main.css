@@ -156,3 +156,13 @@ body {
   font-size: 16px;
   font-weight: 300;
 }
+/* ---------------------About me------------------- */
+#about-me > div{
+  margin: 100px 0;
+  width: 50%;
+  float: left;
+}
+
+.about-me_image img{
+  width: 90%;
+}
