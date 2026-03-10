@@ -1,11 +1,12 @@
 /* Topbar styles */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -22,7 +23,8 @@ body {
 .main_navigation_items {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 100px;;
+  margin-left: 100px;
+  ;
 }
 
 .main_navigation_items a {
@@ -52,40 +54,41 @@ body {
 .main_navigation {
   display: inline-block;
 }
+
 /* Hero section styles */
 
 /* Main-section */
-.main-section{
+.main-section {
   padding: 150px 0;
   height: 96vh;
 }
 
-.main-section > div{
+.main-section>div {
   width: 50%;
   float: left;
 }
 
-.clearfix{
+.clearfix {
   clear: both;
 }
 
-.main-section_item-first{
+.main-section_item-first {
   padding-top: 60px;
 }
 
-.to-uppercase{
+.to-uppercase {
   text-transform: uppercase;
 }
 
-.main-section_item-second{
+.main-section_item-second {
   text-align: right;
 }
 
-.main-section_item-second img{
+.main-section_item-second img {
   width: 350px;
 }
 
-.main-section_info-one{
+.main-section_info-one {
   font-size: 16px;
   font-weight: 300;
   color: gray;
@@ -93,36 +96,36 @@ body {
   letter-spacing: 2px;
 }
 
-.main-section_info-two{
+.main-section_info-two {
   font-size: 57px;
   font-weight: 500;
   color: #05364d;
   padding-bottom: 10px;
 }
 
-.main-section_info-three{
+.main-section_info-three {
   font-size: 25px;
   font-weight: lighter;
   color: #05364d;
   margin-bottom: 50px;
 }
 
-.main-section_item-icons a{
+.main-section_item-icons a {
   font-size: 20px;
   text-decoration: none;
 }
 
-.main-section_item-icons .icon{
+.main-section_item-icons .icon {
   margin-right: 10px;
   color: #05364d;
   margin-bottom: 50px;
 }
 
-.main-section_item-icons .icon:hover{
+.main-section_item-icons .icon:hover {
   color: #df39b0;
 }
 
-.button_work{
+.button_work {
   border: none;
   padding: 20px 40px;
   background-color: #05364d;
@@ -132,11 +135,11 @@ body {
   font-weight: 300;
 }
 
-.main-section_item-third{
+.main-section_item-third {
   margin-top: 20px;
 }
 
-.main-section_item-box{
+.main-section_item-box {
   display: inline-block;
   text-align: center;
   background-color: #f8faff;
@@ -145,39 +148,41 @@ body {
   padding: 10px;
 }
 
-.main-section_item-box h2{
+.main-section_item-box h2 {
   font-size: 27px;
   margin-bottom: 5px;
   color: #df39b0;
 }
 
-.main-section_item-box p{
+.main-section_item-box p {
   color: #797979;
   font-size: 16px;
   font-weight: 300;
 }
+
 /* ---------------------About me------------------- */
-#about-me > div{
+#about-me > div {
   margin: 100px 0;
   width: 50%;
   float: left;
 }
 
-.about-me_image img{
+.about-me_image img {
   width: 90%;
 }
 
-.about-me_info{
+.about-me_info {
   padding-top: 30px;
   padding-left: 30px;
 }
 
-.about-me_subtitle{
+.about-me_subtitle {
   color: #797979;
   font-weight: 500;
   letter-spacing: 2px;
 }
-.about-me_subtitle span{
+
+.about-me_subtitle span {
   background-color: #df39b0;
   filter: blur(4px);
   width: 80px;
@@ -187,16 +192,16 @@ body {
   vertical-align: middle;
 }
 
-.about-me_title{
+.about-me_title {
   font-size: 42px;
   font-weight: 700;
   text-transform: capitalize;
-  color:#05364d;
+  color: #05364d;
   line-height: 52px;
   padding-top: 20px;
 }
 
-.about-me_paragraph{
+.about-me_paragraph {
   color: #797979;
   letter-spacing: 1px;
   font-weight: 300;
@@ -205,18 +210,18 @@ body {
   padding-top: 20px;
 }
 
-.button-about{
- margin-top: 40px;
+.button-about {
+  margin-top: 40px;
 }
+
 /* -------------------Service section------------- */
-#services{
+#services {
   margin-top: 20px;
 }
 
-.sercice-card_main{
-}
+.sercice-card_main {}
 
-.service-card{
+.service-card {
   float: left;
   width: 30%;
   margin-right: 3%;
@@ -227,7 +232,7 @@ body {
   margin-top: 60px
 }
 
-.service-card_title{
+.service-card_title {
   font-size: 20px;
   color: #05364d;
   font-weight: 600;
@@ -235,14 +240,14 @@ body {
   padding-bottom: 25px;
 }
 
-.service-card_paragraph{
+.service-card_paragraph {
   font-size: 14px;
   color: #797979;
   line-height: 27px;
   letter-spacing: 1px;
 }
 
-.service-card .service-card_icon{
+.service-card .service-card_icon {
   text-decoration: none;
   font-size: 14px;
   color: #05364d;
@@ -253,28 +258,32 @@ body {
 .service-card:hover {
   background-color: #5F30FF;
 }
+
 .service-card:hover .service-card_title,
 .service-card:hover .service-card_paragraph,
-.service-card:hover .service-card_icon{
+.service-card:hover .service-card_icon {
   color: #ffff;
 }
+
 /* ------------------Clients section--------------- */
-#clients > div{
+#clients > div {
   margin: 100px 0;
   width: 50%;
   float: left;
 }
 
-#clients{
+#clients {
   margin-top: 100px;
 }
-.clients-title{
-   font-size: 20px;
+
+.clients-title {
+  font-size: 20px;
   color: #05364d;
   font-weight: 600;
   padding-top: 25px;
 }
-.clients-paragraph{
+
+.clients-paragraph {
   color: #797979;
   letter-spacing: 1px;
   font-weight: 300;
@@ -282,16 +291,39 @@ body {
   font-size: 14px;
 }
 
-.cliens-paragraph_small{
+.cliens-paragraph_small {
   display: block;
   padding-top: 5px;
   padding-bottom: 15px;
 }
 
-.clients-icons{
+.clients-icons {
   margin-top: 15px;
 }
 
-.clients-icons .icon{
+.clients-icons .icon {
   color: yellow;
+}
+
+/* -----------------Portfolio section ------------------*/
+.portfolio-lists{
+  margin-top: 60px;
+}
+.portfolio-lists li{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.portfolio-list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio-list-item .all,
+.portfolio-list-item:hover a{
+  color: #1345e6;
 }
