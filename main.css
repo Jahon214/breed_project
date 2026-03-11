@@ -17,14 +17,19 @@ body {
 .main_header {
   display: inline-block;
   width: 100%;
-  padding-top: 20px;
+  position: fixed;
+  height: 70px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
 }
 
 .main_navigation_items {
   display: inline-block;
-  vertical-align: middle;
   margin-left: 100px;
-  ;
+  padding-top: 10px;
 }
 
 .main_navigation_items a {
@@ -161,7 +166,7 @@ body {
 }
 
 /* ---------------------About me------------------- */
-#about-me > div {
+#about-me>div {
   margin: 100px 0;
   width: 50%;
   float: left;
@@ -266,7 +271,7 @@ body {
 }
 
 /* ------------------Clients section--------------- */
-#clients > div {
+#clients>div {
   margin: 100px 0;
   width: 50%;
   float: left;
@@ -306,16 +311,17 @@ body {
 }
 
 /* -----------------Portfolio section ------------------*/
-.portfolio-lists{
+.portfolio-lists {
   margin-top: 60px;
 }
-.portfolio-lists li{
-    display: inline-block;
-    margin-right: 40px;
-    font-size: 13px;
-    font-weight: 400;
-    text-transform: uppercase;
-    cursor: pointer;
+
+.portfolio-lists li {
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .portfolio-list-item a {
@@ -324,6 +330,84 @@ body {
 }
 
 .portfolio-list-item .all,
-.portfolio-list-item:hover a{
+.portfolio-list-item:hover a {
   color: #1345e6;
 }
+
+.portfolio-image {
+  margin-top: 40px;
+  position: relative;
+}
+
+.portfolio-image-item {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  cursor: pointer;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.item-2{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.item-3{
+  position: absolute;
+  top: 326px;
+  right: 0;
+}
+
+
+.portfolio-image-item img {
+  width: 100%;
+}
+
+.portfolio-image-item:hover .overlay {
+  top: 20px;
+  left: 20px;
+  background: rgba(19, 69, 230, 0.9);
+  z-index: 1;
+}
+
+ .item-2:hover .overlay{
+  top: 20px;
+  left: 20px;
+  background: rgba(19, 69, 230, 0.9);
+}
+
+.portfolio-image-item .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio-image-item:hover .portfolio-info {
+  visibility: visible;
+  box-sizing: border-box;
+  color: white;
+  z-index: 2;
+}
+
+.portfolio-info {
+  position: absolute;
+  bottom: 44px;
+  left: 80px;
+  color: #ffffff;
+  visibility: hidden;
+}
+
+.portfolio-info h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.portfolio-info p {
+  font-size: 15px;
+}
+
+
