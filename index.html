@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project-Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -45,40 +46,43 @@
   <!-- /Header section -->
 
   <!-- Main section -->
-  <div class="container">
-    <section id="main-section" class="main-section">
-      <div class="main-section_item-first">
-        <h4 class="main-section_info-one to-uppercase">Hey There !</h4>
-        <h1 class="main-section_info-two to-uppercase">I am Narzullayev</h1>
-        <h5 class="main-section_info-three to-uppercase">Full-Stack Developer & Mnemonist</h5>
-        <section class="main-section_item-icons">
-          <a href="https://t.me/Lion_214"><i class="fa-brands fa-telegram fa-beat-fade icon">
-            </i></a>
-          <a href="https://instagram.com/_jahon_03"><i class="fa-brands fa-instagram fa-beat-fade icon"></i><a>
-              <a href="https://github.com/Jahon214"><i class="fa-brands fa-github fa-beat-fade icon"></i></a>
-              <a href=""><i class="fa-brands fa-facebook fa-beat-fade icon"></i></a>
-        </section>
-        <button class="to-uppercase button_work">See My work</button>
-      </div>
-      <div class="main-section_item-second">
-        <img src="images/home-right.png" alt="">
-      </div>
-      <div class="main-section_item-third">
-        <div class="main-section_item-box">
-          <h2>15k+</h2>
-          <p>Happy Customer</p>
+  <div class="main-banner">
+    <div class="container">
+      <section id="main-section" class="main-section">
+        <div class="main-section_item-first">
+          <h4 class="main-section_info-one to-uppercase">Hey There !</h4>
+          <h1 class="main-section_info-two to-uppercase">I am Narzullayev</h1>
+          <h5 class="main-section_info-three to-uppercase">Full-Stack Developer & Mnemonist</h5>
+          <section class="main-section_item-icons">
+            <a href="https://t.me/Lion_214"><i class="fa-brands fa-telegram fa-beat-fade icon">
+              </i></a>
+            <a href="https://instagram.com/_jahon_03"><i class="fa-brands fa-instagram fa-beat-fade icon"></i><a>
+                <a href="https://github.com/Jahon214"><i class="fa-brands fa-github fa-beat-fade icon"></i></a>
+                <a href=""><i class="fa-brands fa-facebook fa-beat-fade icon"></i></a>
+          </section>
+          <button class="to-uppercase button_work">See My work</button>
         </div>
-        <div class="main-section_item-box">
-          <h2>12k+</h2>
-          <p>Ticket Solved</p>
+        <div class="main-section_item-second">
+          <div class="main-section__bg-image"></div>
+          <img src="images/home-right.png" alt="">
         </div>
-        <div class="main-section_item-box">
-          <h2>9/10</h2>
-          <p>Average Rating</p>
+        <div class="main-section_item-third">
+          <div class="main-section_item-box">
+            <h2>15k+</h2>
+            <p>Happy Customer</p>
+          </div>
+          <div class="main-section_item-box">
+            <h2>12k+</h2>
+            <p>Ticket Solved</p>
+          </div>
+          <div class="main-section_item-box">
+            <h2>9/10</h2>
+            <p>Average Rating</p>
+          </div>
         </div>
-      </div>
-    </section>
-    <div class="clearfix"></div>
+      </section>
+      <div class="clearfix"></div>
+    </div>
   </div>
   <!-- /Main section -->
 
@@ -209,11 +213,76 @@
   </div>
   <!-- /Portfolio -->
 
-
   <!-- Blog section -->
-  <section id="blog">
-    <h1>Blog</h1>
-  </section>
+  <div class="container">
+    <section id="blog">
+      <h4 class="about-me_subtitle to-uppercase">Our blog<span></span></h4>
+      <h2 class="about-me_title">Latest Story From <br> Our Blog</h2>
+
+      <div class="blog-section">
+        <div class="blog-section__box">
+          <div class="blog-image">
+            <img src="images/b1.jpg" alt="">
+          </div>
+          <div class="blog-section__box-info">
+           <div class="box-info_items">
+             <span class="items-icon">
+              <i class="ti ti-user"></i>
+              <span>Admin post</span>
+            </span>
+            <span class="items-icon">
+              <i class="ti ti-calendar"></i>
+              <span>Feb 14, 2019</span>
+            </span>
+           </div>
+            <h4 class="items-heading">Shall every fourth lesser have...</h4>
+            <p class="items-description">Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.</p>
+            <a href="#" class="to-uppercase box-info_learn">Learn More</a>
+          </div>
+        </div>
+        <div class="blog-section__box">
+          <div class="blog-image">
+            <img src="images/b2.jpg" alt="">
+          </div>
+          <div class="blog-section__box-info">
+           <div class="box-info_items">
+             <span class="items-icon">
+              <i class="ti ti-user"></i>
+              <span>Admin post</span>
+            </span>
+            <span class="items-icon">
+              <i class="ti ti-calendar"></i>
+              <span>Feb 14, 2019</span>
+            </span>
+           </div>
+            <h4 class="items-heading">Shall every fourth lesser have...</h4>
+            <p class="items-description">Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.</p>
+            <a href="#" class="to-uppercase box-info_learn">Learn More</a>
+          </div>
+        </div>
+        <div class="blog-section__box">
+          <div class="blog-image">
+            <img src="images/b3.jpg" alt="">
+          </div>
+          <div class="blog-section__box-info">
+           <div class="box-info_items">
+             <span class="items-icon">
+              <i class="ti ti-user"></i>
+              <span>Admin post</span>
+            </span>
+            <span class="items-icon">
+              <i class="ti ti-calendar"></i>
+              <span>Feb 14, 2019</span>
+            </span>
+           </div>
+            <h4 class="items-heading">Shall every fourth lesser have...</h4>
+            <p class="items-description">Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.</p>
+            <a href="#" class="to-uppercase box-info_learn">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
   <!-- /Blog section -->
 
   <!-- Partners section -->
